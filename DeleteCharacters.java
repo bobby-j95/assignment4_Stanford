@@ -11,7 +11,7 @@ public class DeleteCharacters extends ConsoleProgram {
 
 	public void run() {
 		String line = "This is a test";
-		char character = 'r';
+		char character = 'i';
 		println(removeAllOccurrences(line, character));
 	}
 
